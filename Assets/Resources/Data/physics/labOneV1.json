@@ -33,14 +33,14 @@
         "Length of the given wire, l = _ m"
     ],
     "Components": [
-        
+       
         {
             "Name": "R1",
             "Type": "Resistor",
             "Title": "Resistor",
             "Description": "A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow, adjust signal levels, to divide voltages, bias active elements, and terminate transmission lines, among other uses.",
             "Position": [1.5, 2.3, -0.2],
-            "Interfaces": ["key_out", "am_in"],
+            "Interfaces": ["key_out", "0"],
             "Parameters": [1, 0, 3, 0.1]
         }
     ]

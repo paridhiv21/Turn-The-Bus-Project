@@ -1,19 +1,25 @@
 {
-    "Labs": [
-        {
-            "labNum": 1,
-            "labTitle": "Lab 1",
-            "labJSON": "Data/physics/labOneV1"
-        },
-        {
-            "labNum": 2,
-            "labTitle": "Lab 2",
-            "labJSON": "Data/physics/labOneV2"
-        },
-        {
-            "labNum": 3,
-            "labTitle": "Lab 3",
-            "labJSON": "Data/physics/labOneV3"
-        }
-    ]
+  "Labs": [
+    {
+      "labNum": 1,
+      "labTitle": "Learn About Resistance",
+      "labJSON": "Data/physics/labOneV1"
+    },
+    {
+      "labNum": 2,
+      "labTitle": "Connect Resistance to a Battery",
+      "labJSON": "Data/physics/labOneV2"
+    },
+    {
+      "labNum": 3,
+      "labTitle": "Ohm's Law With Standard Resistance",
+      "labJSON": "Data/physics/labOneV3"
+    },
+    {
+      "labNum": 4,
+      "labTitle": "Experiment 1 : Ohm's Law with Wire of Unknown Resistance",
+      "labJSON": "Data/physics/labOneV4"
+    }
+
+  ]
 }

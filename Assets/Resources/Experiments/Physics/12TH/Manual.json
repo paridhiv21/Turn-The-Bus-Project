@@ -1,0 +1,11 @@
+{
+    "Experiments": [
+      {
+        "ExperimentNumber": 5,
+        "ExperimentType": "ElectricalLab",
+        "ExperimentTitle": "To Determine the Internal Resistance of a given primary cell using a potentiometer",
+        "ExperimentPic":"Assets/Resources/Pictures/ExperimentPics/experiment5.png",
+        "ExperimentJSON": "Experiments/Physics/12TH/experiment5"
+      }
+    ]
+  }

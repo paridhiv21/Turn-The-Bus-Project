@@ -59,6 +59,6 @@ public class Rheostat : CircuitComponent
         Circuit.isLabelWindowOpen = true;
         Circuit.componentTitle = Title;
         Circuit.componentDescription = Description;
-        Circuit.componentValue = (Ratio * 100).ToString()+" Meter"; //100M long wire
+        Circuit.componentValue = string.Format("{0:0.##}", (Ratio * 100)) + " Meter"; //100M long wire
     }
 }

@@ -42,6 +42,7 @@ public class Ammeter : CircuitComponent
         Circuit.isLabelWindowOpen = true;
         Circuit.componentTitle = Title;
         Circuit.componentDescription = Description;
-        Circuit.componentValue = this.Indicator*this.Scale + " V";
+        if (this.Indicator * this.Scale >= 100 || this.Indicator * this.Scale <= -100) { Circuit.componentValue = string.Format("{0:0.##}", this.Indicator * this.Scale / 1000) + " A"; }
+        else { Circuit.componentValue = string.Format("{0:0.##}", this.Indicator * this.Scale) + " mA"; }
     }
 }

@@ -48,7 +48,7 @@ public class ExperimentNavigation : MonoBehaviour
             btn.transform.parent = parent;
             btn.transform.position = new Vector3(width, height, 0);
             btn.GetComponent<RectTransform>().sizeDelta = new Vector2(327.8f, 48.2f);
-            width += 327.8f;
+            width += 450f;
             btn.onClick.AddListener(() => loadScene(experiment.ExperimentType, experiment.ExperimentJSON));
             TextMeshProUGUI buttonText = btn.GetComponentInChildren<TextMeshProUGUI>();
             buttonText.text = "Experiment "+experiment.ExperimentNumber.ToString();

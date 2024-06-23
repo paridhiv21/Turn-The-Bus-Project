@@ -5,10 +5,17 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UIScene.unity
     guid: d626ecc8722a8c94781bfe72c8e06597
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LabScene.unity
     guid: 1ee5d928db67d9a479c3dec0c160dcbc
+  - enabled: 1
+    path: Assets/Scenes/LabScenes/ElectricalLab.unity
+    guid: 54bfd9c5f3ae4d7469ea4249f4dc7d09
+  - enabled: 1
+    path: Assets/Scenes/ExperimentNavigation.unity
+    guid: c850ee8c3b14cc8459e7e186857cf567
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

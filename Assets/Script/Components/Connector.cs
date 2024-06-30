@@ -14,5 +14,7 @@ public class Connector : CircuitComponent
         
         spiceEntitys = new List<SpiceSharp.Entities.IEntity> ();
         spiceEntitys.Add(new SpiceSharp.Components.Resistor(name, interfaces[0], interfaces[1], 0));
+        spiceEntitys.Add(new SpiceSharp.Components.Resistor(name+"1", interfaces[2], interfaces[3], 0));
+        spiceEntitys.Add(new SpiceSharp.Components.Resistor(name + "2", interfaces[0], interfaces[2], 0));
     }
 }

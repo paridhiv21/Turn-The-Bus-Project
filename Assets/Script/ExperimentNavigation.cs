@@ -31,6 +31,7 @@ public class ExperimentNavigation : MonoBehaviour
     {
         public TextMeshProUGUI ButtonText;
         public RawImage ButtonImage;
+        public TextMeshProUGUI ButtonDescription;
     }
 
     public ExperimentList Experiments = new ExperimentList();
@@ -51,8 +52,11 @@ public class ExperimentNavigation : MonoBehaviour
             width += 450f;
             btn.onClick.AddListener(() => loadScene(experiment.ExperimentType, experiment.ExperimentJSON));
             TextMeshProUGUI buttonText = btn.GetComponentInChildren<TextMeshProUGUI>();
+            TextMeshProUGUI buttondescription = btn.transform.Find("Text (TMP) (1)").GetComponentInChildren<TextMeshProUGUI>();
             buttonText.text = "Experiment "+experiment.ExperimentNumber.ToString();
             buttonText.fontSize = 24;
+            buttondescription.text = experiment.ExperimentTitle.ToString();
+            buttondescription.fontSize = 24;
             RawImage buttonImg = btn.transform.GetChild(2).GetComponent<RawImage>();
             byte[] imageBytes = File.ReadAllBytes(experiment.ExperimentPic);
             Texture2D tex = new Texture2D(2, 2);

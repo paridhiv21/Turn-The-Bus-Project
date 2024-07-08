@@ -48,6 +48,6 @@ public class WireResistor : CircuitComponent
         Circuit.isLabelWindowOpen = true;
         Circuit.componentTitle = Title;
         Circuit.componentDescription = Description;
-        Circuit.componentValue = Resistance.ToString() + " OHM";
+        Circuit.componentValue = string.Format("{0:0.##}", Resistance) + " OHM";
     }
 }

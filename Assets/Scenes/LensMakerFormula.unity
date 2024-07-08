@@ -2411,6 +2411,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: U
       objectReference: {fileID: 0}
+    - target: {fileID: 114772037659290930, guid: 616dca15c7978b0439f96de78e0ff213, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224291809519292254, guid: 616dca15c7978b0439f96de78e0ff213, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -1.458

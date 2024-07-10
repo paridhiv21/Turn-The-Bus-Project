@@ -15,3 +15,22 @@ The initial framework of the new lab was developed by a team from Carnegie Mello
 # TTB_Labs%    
 
 TODO(Deepak/Bhagwati): license to be added
+
+<table>
+  <tr>
+    <th>Person</th>
+    <th>Participants</th>
+    <th>Solved</th>
+    <th>Q5</th>
+    <th>Q14</th>
+    <th>Q15</th>
+  </tr>
+  <tr>
+    <th>1.</th>
+    <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
+    <td><center>9 &#10024;</center></td>
+    <td>&#9989;</td>
+    <td>&#9989;</td>
+    <td>&#9989;</td>
+  </tr>
+</table>

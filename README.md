@@ -44,97 +44,97 @@
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 3</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm303.pdf">Experiment 3</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 4</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm304.pdf">Experiment 4</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 5</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm305.pdf">Experiment 5</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 6</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm306.pdf">Experiment 6</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 7</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm306.pdf">Experiment 7</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 8</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm307.pdf">Experiment 8</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 9</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm307.pdf">Experiment 9</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 10</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm308.pdf">Experiment 10</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 11</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm309.pdf">Experiment 11</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 12</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm309.pdf">Experiment 12</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 13</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm309.pdf">Experiment 13</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 14</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm310.pdf">Experiment 14</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 15</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm310.pdf">Experiment 15</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 16</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm310.pdf">Experiment 16</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 17</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm310.pdf">Experiment 17</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 18</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm310.pdf">Experiment 18</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>

@@ -16,10 +16,12 @@
 
 - The initial framework of the new lab was developed by a team from Carnegie Mellon University as a part of the practicum project for Fall 2022 in collaboration with Turn The Bus. The members of the team are Adrian Jenkins, Harshit Maheshwari, and Ziniu Wan.
 - Later new Interns Worked on it to Add Class 12 Physics Lab Experiment for Simulation Purpose. The Members are
-- Sachin Rayal
-- Nikita Yadav
-- Vrinda Juneja
-- MitrajSinh Chavda
+  - Sachin Rayal
+  - Nikita Yadav
+  - Vrinda Juneja
+  - MitrajSinh Chavda
+
+### Experimentations
 
 <table>
   <tr>
@@ -30,7 +32,7 @@
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 1</th>
+    <th>[Experiment 1](https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm302.pdf)</th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>

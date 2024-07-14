@@ -32,13 +32,13 @@
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>[Experiment 1](https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm302.pdf)</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm302.pdf">Experiment 1</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>
   <tr>
     <th>Physics/12th</th>
-    <th>Experiment 2</th>
+    <th><a href="https://ncert.nic.in/pdf/publication/sciencelaboratorymanuals/classXII/physics/lelm302.pdf">Experiment 2</a></th>
     <th><center><img src="https://avatars.githubusercontent.com/u/66353809?s=64&v=4" width="25" height="25" align="left"> Sachin Rayal</center></th>
     <th>...</th>
   </tr>

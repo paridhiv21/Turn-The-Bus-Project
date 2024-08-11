@@ -8,6 +8,13 @@
       "ExperimentJSON": "Experiments/Physics/12TH/experiment1"
     },
     {
+      "ExperimentNumber": 2,
+      "ExperimentType": "ElectricalLab",
+      "ExperimentTitle": "Experiment 2 : To determine the resistance of a given wire using a metre bridge",
+      "ExperimentPic": "Assets/Resources/Pictures/ExperimentPics/experiment2.png",
+      "ExperimentJSON": "Experiments/Physics/12TH/experiment2"
+    },
+    {
       "ExperimentNumber": 5,
       "ExperimentType": "ElectricalLab",
       "ExperimentTitle": "To Determine the Internal Resistance of a given primary cell using a potentiometer",

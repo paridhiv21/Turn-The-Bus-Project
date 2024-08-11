@@ -15,7 +15,7 @@
 ### Contributors
 
 - The initial framework of the new lab was developed by a team from Carnegie Mellon University as a part of the practicum project for Fall 2022 in collaboration with Turn The Bus. The members of the team are Adrian Jenkins, Harshit Maheshwari, and Ziniu Wan.
-- Later new Interns Worked on it to Add Class 12 Physics Lab Experiment for Simulation Purpose. The Members are
+- Later new Interns Worked on it to Add Class 12 Physics Lab Experiment for Simulation Purpose By The Guidance of Sir Bhagwati. The Members are
   - Sachin Rayal
   - Nikita Yadav
   - Vrinda Juneja
@@ -27,8 +27,9 @@
   <tr>
     <th>Type</th>
     <th>Information</th>
-    <th>Status</th>
+    <th>Currently Working</th>
     <th>Remarks</th>
+    <th>Status</th>
   </tr>
   <tr>
     <th>Physics/12th</th>

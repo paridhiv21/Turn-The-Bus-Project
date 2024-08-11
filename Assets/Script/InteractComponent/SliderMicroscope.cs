@@ -31,21 +31,21 @@ public class SliderMicroscope : MonoBehaviour
         MValue.onValueChanged.AddListener((v) =>
         {
             m = v * 1/20f;
-            valueText.text = (m+n).ToString("0.00")+" cm";
+            valueText.text = (m+n).ToString("0.00")+" mm";
             blur.GetComponent<Image>().material.SetFloat("_Size", ((m+n)-(2+thickness+BlurValue))*3);
         });
 
         NValue.onValueChanged.AddListener((v) =>
         {
             n = v * 0.001f;
-            valueText.text = (m+n).ToString("0.000")+" cm";
+            valueText.text = (m+n).ToString("0.000")+" mm";
             blur.GetComponent<Image>().material.SetFloat("_Size", ((m + n) - (2 + thickness + BlurValue)) * 3);
         });
 
         Thickness.onValueChanged.AddListener((v) =>
         {
             thickness = v;
-            ThicknessValue.text = v.ToString("0")+" cm";
+            ThicknessValue.text = v.ToString("0")+" mm";
             blur.GetComponent<Image>().material.SetFloat("_Size", ((m + n) - (2 + thickness + BlurValue)) * 3);
         });
     }

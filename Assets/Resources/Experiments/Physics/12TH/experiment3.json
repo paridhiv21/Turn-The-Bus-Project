@@ -42,7 +42,7 @@
             "Rotation": [0,0,0],
             "Scale": [5,5,5],
             "Interfaces": ["pos", "0"],
-            "Parameters": [3.0]
+            "Parameters": [3000.0]
         },
         {
             "Name": "K1",

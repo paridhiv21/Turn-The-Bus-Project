@@ -1,5 +1,6 @@
+
 {
-    "ExperimentTitle": "Class 12 Experiment 5",
+    "ExperimentTitle": "Class 12 Experiment 7",
     "Aim": "To determine the internal resistance of a given primary cell using a potentiometer.",
     "Background": "",
     "MaterialsRequired": [
@@ -26,87 +27,80 @@
         "l0 = ... cm (in the beginning of the experiment)",
         "l0 = ... cm (at the end of the experiment)"
     ],
-
     "Components": [
+        
         {
             "Name": "V1",
             "Type": "VoltageSource",
             "Title": "Voltage Source",
             "Description": "A voltage source is a two-terminal device which can maintain a fixed voltage.",
-            "Position": [-7.5, 0, 0.95],
+            "Position": [-7.5, 0, 6.64],
             "Rotation": [0,0,0],
-            "Scale": [3,3,3],
-            "Interfaces": ["pos", "0"],
-            "Parameters": [10.0]
+            "Scale": [5,5,5],
+            "Interfaces": ["pos","0" ],
+            "Parameters": [3.0]
         },
         {
-            "Name": "RS1",
+            "Name": "RS",
             "Type": "Rheostat",
             "Title": "Rheostat",
             "Description": "The most common way to vary the resistance in a circuit continuously is to use a rheostat. It is basically used to adjust magnitude of current in a circuit by changing length.",
-            "Position": [-5.31, 1.07, 7.69],
+            "Position": [-1, 1, 5.43],
             "Rotation": [0,-90,0],
-            "Scale": [2,2,2],
-            "Interfaces": ["pos", "Amm", "0"],
-            "Parameters": [2] 
+            "Scale": [3,3,3],
+            "Interfaces": ["pos","gm_in", "rh_out"],
+            "Parameters": [2.0e2] 
         },
         {
-            "Name": "Am1",
-            "Type": "Ammeter",
-            "Title": "Ammeter",
-            "Description": "An ammeter is an instrument used to measure the current in a circuit. Electric currents are measured in amperes (A). For direct measurement, the ammeter is connected in series with the circuit in which the current is to be measured.",
-            "Position": [-0.94, 0, 1.08],
+            "Name": "Vm",
+            "Type": "Voltmeter",
+            "Title": "Voltmeter",
+            "Description": "A voltmeter is an instrument used for measuring electric potential difference between two points in an electric circuit. It is connected in parallel. It usually has a high resistance so that it takes negligible current from the circuit.",
+            "Position": [0.94, 0, 1],
             "Rotation": [0,-90,0],
             "Scale": [10,10,10],
-            "Interfaces": ["Amm", "Amm_Out"],
-            "Parameters": [1.0e3, 1]
+            "Interfaces": ["gm_in", "rh_out"],
+            "Parameters": [1.0e3, 1.0e8]
         },
+        
 
+        {
+            "Name": "Gm",
+            "Type": "Galvanometer",
+            "Title": "Galvanometer",
+            "Description": "An ammeter is an instrument used to measure the current in a circuit. Electric currents are measured in amperes (A). For direct measurement, the ammeter is connected in series with the circuit in which the current is to be measured.",
+            "Position": [-1.16, 2.3, -2.8],
+            "Rotation": [0,-89,0],
+            "Scale": [15,15,15],
+            "Interfaces": ["gm_in","gm_out"],
+            "Parameters": [1.0e3,100.0]
+        },
+        
+        {
+            "Name": "R1",
+            "Type": "Resistor",
+            "Title": "Resistor",
+            "Description": "A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow, adjust signal levels, to divide voltages, bias active elements, and terminate transmission lines, among other uses.",
+            "Position": [3, 1, -2],
+            "Rotation": [0,-90,0],
+            "Scale": [1,1,1],
+            "Interfaces": ["gm_out","rh_out"],
+            "Parameters": [1, 0, 3, 0.1]
+        },
+        
+        
+        
         {
             "Name": "K1",
             "Type": "PlugKey",
             "Title": "Plug Key",
             "Description": "This is a plug key",
-            "Position": [4.46, 0, 1.76],
+            "Position": [6, 0, 8.91],
             "Rotation": [0,-90,0],
-            "Scale": [1.5,1.5,1.5],
-            "Interfaces": ["Key2_out", "Amm_Out"],
+            "Scale": [1.5,1.5,1.5], 
+            "Interfaces": ["rh_out", "0"],
             "Parameters": [3.0]
-        },
-        {
-            "Name": "RS2",
-            "Type": "Rheostat",
-            "Title": "Rheostat",
-            "Description": "The most common way to vary the resistance in a circuit continuously is to use a rheostat. It is basically used to adjust magnitude of current in a circuit by changing length.",
-            "Position": [5.03, 4.5, 7.69],
-            "Rotation": [0,-90,0],
-            "Scale": [2,2,2],
-            "Interfaces": ["0", "Amm_Out", "asd"],
-            "Parameters": [100] 
-        },
-        {
-            "Name": "W1",
-           "Type": "WireResistance",
-            "Title": "Resistor",
-            "Description": "A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow, adjust signal levels, to divide voltages, bias active elements, and terminate transmission lines, among other uses.",
-            "Position": [0.47, 0, 8.91],
-            "Rotation": [0,-90,0],
-            "Scale": [1,1,1],
-            "Interfaces": ["pos", "Key2_out"],
-            "Parameters": [2.5e-6, 1.7e-4, 0.15]
-        },
-        {
-            "Name": "W2",
-            "Type": "WireResistance",
-            "Title": "Resistor",
-            "Description": "A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow, adjust signal levels, to divide voltages, bias active elements, and terminate transmission lines, among other uses.",
-            "Position": [0.09, 0, 5.92],
-            "Rotation": [0,-90,0],
-            "Scale": [1,1,1],
-            "Interfaces": ["pos", "Key2_out"],
-            "Parameters": [2.5e-6, 1.7e-4, 0.15]
-        
         }
-
+        
     ]
 }

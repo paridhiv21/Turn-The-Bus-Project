@@ -22,15 +22,24 @@
         "ExperimentPic":"Assets/Resources/Pictures/ExperimentPics/experiment5.png",
         "ExperimentJSON": "Experiments/Physics/12TH/experiment7a"
       },
+      
       {
-        "ExperimentNumber": 6,
-        "ExperimentType": "ElectricalLab",
-        "ExperimentTitle": "To Determine the Internal Resistance of a given primary cell using a potentiometer",
-        "ExperimentPic":"Assets/Resources/Pictures/ExperimentPics/experiment5.png",
-        "ExperimentJSON": "Experiments/Physics/12TH/experiment6"
+          "ExperimentNumber": 1,
+          "ExperimentType": "ElectricalLab",
+          "ExperimentTitle": "Experiment 1 : Ohm's Law with Wire of Unknown Resistance",
+          "ExperimentPic": "Assets/Resources/Pictures/ExperimentPics/experiment1.png",
+          "ExperimentJSON": "Experiments/Physics/12TH/experiment1"
       },
       {
-        "ExperimentNumber": 4,
+        "ExperimentNumber": 3,
+        "ExperimentType": "ElectricalLab",
+        "ExperimentTitle": "To Determine the Internal Resistance of a given primary cell using a potentiometer",
+        "ExperimentPic":"Assets/Resources/Pictures/ExperimentPics/experiment3.png",
+        "ExperimentJSON": "Experiments/Physics/12TH/experiment3"
+      },
+      {
+        "ExperimentNumber": 5,
+
         "ExperimentType": "ElectricalLab",
         "ExperimentTitle": "To Determine the Internal Resistance of a given primary cell using a potentiometer",
         "ExperimentPic":"Assets/Resources/Pictures/ExperimentPics/experiment4.png",

@@ -68,4 +68,19 @@ public class SliderClamp : MonoBehaviour
         }
         pencil.transform.localScale = new Vector2((1 + slider.value / 5) + imageFlip / 5, (1 + slider.value / 5) + imageFlip / 5);
     }
+    public void convex()
+    {
+        imageFlip = 10f;
+        if (slider.value > imageFlip)
+        {
+            pencil.transform.rotation = Quaternion.EulerRotation(new Vector3(0, 0, 3.1f));
+            pencil.transform.localPosition = new Vector3(0, 513, 0);
+        }
+        else
+        {
+            pencil.transform.rotation = Quaternion.EulerRotation(new Vector3(0, 0, 0));
+            pencil.transform.localPosition = new Vector3(0, -513, 0);
+        }
+        pencil.transform.localScale = new Vector2((1 + slider.value / 5) + imageFlip / 5, (1 + slider.value / 5) + imageFlip / 5);
+    }
 }

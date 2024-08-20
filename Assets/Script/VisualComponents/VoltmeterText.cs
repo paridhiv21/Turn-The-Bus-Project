@@ -16,6 +16,11 @@ public class VoltmeterText : MonoBehaviour
             VoltageValue.text = string.Format("{0:0.##}", voltage/1000) + " V"; 
         }
         else { VoltageValue.text = string.Format("{0:0.##}", voltage) + " mV"; }
+        /*if (voltage >= 100000 || voltage <= -100000)
+        {
+            VoltageValue.text = string.Format("{0:0.##}", voltage / 1000000) + " V";
+        }
+        else*/ 
     }
 
     public void InitVoltageValue()

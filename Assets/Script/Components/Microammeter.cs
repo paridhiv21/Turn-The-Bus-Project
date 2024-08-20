@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Ammeter : CircuitComponent
+public class Microammeter : CircuitComponent
 {
     public double Indicator = 0;
-    public float Scale = 1.0e3f;
+    public float Scale = 1.0e6f;
 
     public string componentTitleString = "";
     public string componentDescriptionString = "";
@@ -29,12 +29,12 @@ public class Ammeter : CircuitComponent
     {
         base.RegisterComponent(circuit);
 
-        gameObject.GetComponentInChildren<AmmeterText>().InitAmmeterValue();
+        gameObject.GetComponentInChildren<MicroammeterText>().InitAmmeterValue();
         var currentExport = new SpiceSharp.Simulations.RealPropertyExport(circuit.Sim, this.name, "i");
         circuit.Sim.ExportSimulationData += (sender, args) =>
         {
             this.Indicator = currentExport.Value;
-            gameObject.GetComponentInChildren<AmmeterText>().UpdateAmmeterValue(this.Indicator * this.Scale);
+            gameObject.GetComponentInChildren<MicroammeterText>().UpdateAmmeterValue(this.Indicator * this.Scale);
         };
     }
     private void OnMouseDown()
@@ -42,8 +42,6 @@ public class Ammeter : CircuitComponent
         Circuit.isLabelWindowOpen = true;
         Circuit.componentTitle = Title;
         Circuit.componentDescription = Description;
-        /*if (this.Indicator * this.Scale >= 100 || this.Indicator * this.Scale <= -100) { Circuit.componentValue = string.Format("{0:0.##}", this.Indicator * this.Scale / 1000) + " A"; }
-        else { Circuit.componentValue = string.Format("{0:0.##}", this.Indicator * this.Scale) + " mA"; }*/
         if (this.Indicator * this.Scale >= 100000 || this.Indicator * this.Scale <= -100000)
         {
             Circuit.componentValue = string.Format("{0:0.##}", this.Indicator * this.Scale / 1e6) + " A";

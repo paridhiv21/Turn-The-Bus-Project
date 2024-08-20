@@ -1,3 +1,4 @@
+
 {
   "Experiments": [
      
@@ -63,6 +64,20 @@
       "ExperimentTitle": "To determine the refractive index of a liquid (water) using (i) concave mirror, (ii) convex lens and a plane mirror.",
       "ExperimentPic": "Assets/Resources/Pictures/ExperimentPics/experiment15.png",
       "ExperimentJSON": "-"
-    }
+    },
+      {
+        "ExperimentNumber": 17,
+        "ExperimentType": "ElectricalLab",
+        "ExperimentTitle": "To draw the characteristic curve of a Zener diode and to determine its reverse breakdown voltage.",
+        "ExperimentPic":"Assets/Resources/Pictures/ExperimentPics/experiment17.png",
+        "ExperimentJSON": "Experiments/Physics/12TH/experiment17"
+      },
+      {
+        "ExperimentNumber": 18,
+        "ExperimentType": "ElectricalLab",
+        "ExperimentTitle": "To study the characteristics of a common emitter n-p-n (or p-n-p) transistor and to find out the values of current and voltage gains.",
+        "ExperimentPic":"Assets/Resources/Pictures/ExperimentPics/experiment18.png",
+        "ExperimentJSON": "Experiments/Physics/12TH/experiment18"
+      }
   ]
 }

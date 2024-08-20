@@ -9,20 +9,19 @@ public class AmmeterText : MonoBehaviour
 
     public void UpdateAmmeterValue(double ammeterValue)
     {
-        /*if(ammeterValue >= 100 || ammeterValue <= -100) { AmmeterValue.text = string.Format("{0:0.##}", ammeterValue / 1000) + " A"; }
-        else { AmmeterValue.text = string.Format("{0:0.##}", ammeterValue) + " mA"; }*/
-        if (ammeterValue >= 100000 || ammeterValue <= -100000)
+        /*if (ammeterValue >= 100000 || ammeterValue <= -100000)
         {
-            AmmeterValue.text = string.Format("{0:0.##}", ammeterValue / 1000000) + " A";
+            AmmeterValue.text = string.Format("{0:0.##}", ammeterValue / 1000000) + "A";
         }
-        else if (ammeterValue >= 100 || ammeterValue <= -100)
+        else*/ if (ammeterValue >= 100 || ammeterValue <= -100)
         {
-            AmmeterValue.text = string.Format("{0:0.##}", ammeterValue / 1000) + " mA";
+            AmmeterValue.text = string.Format("{0:0.##}", ammeterValue / 1000) + "A";
         }
         else
         {
-            AmmeterValue.text = string.Format("{0:0.##}", ammeterValue) + " µA";
+            AmmeterValue.text = string.Format("{0:0.##}", ammeterValue) + " mA";
         }
+
     }
 
     public void InitAmmeterValue()

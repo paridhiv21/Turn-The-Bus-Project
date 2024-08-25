@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -72,9 +73,9 @@ public class Resistor : CircuitComponent
         ResistorParam1 = Math.Max(Math.Min((int)parameters[0], MAX_RESISTANCE_PARAM), MIN_RESISTANCE_PARAM);
         ResistorParam2 = Math.Min(Math.Min((int)parameters[1], MAX_RESISTANCE_PARAM), MIN_RESISTANCE_PARAM);
         Multiplier = Math.Max(Math.Min((int)parameters[2], MAX_MULTIPLIER), MIN_MULTIPLIER);
-        // Resistance = (ResistorParam1 * 10 + ResistorParam2) * Math.Pow(10, Multiplier);
+        Resistance = (ResistorParam1 * 10 + ResistorParam2) * Math.Pow(10, Multiplier);
         
-        Resistance = (3.0/0.0006) - 100;
+        // Resistance = (3.0/0.0006) - 100;
         
         spiceEntitys = new List<SpiceSharp.Entities.IEntity>();
         spiceEntitys.Add(new SpiceSharp.Components.Resistor(name, interfaces[0], interfaces[1], Resistance));
@@ -103,3 +104,4 @@ public class Resistor : CircuitComponent
         Circuit.componentValue = Resistance.ToString() + " OHM";
     }
 }
+

@@ -1,4 +1,5 @@
 
+
 {
     "ExperimentTitle": "Class 12 Experiment 7",
     "Aim": "To determine the internal resistance of a given primary cell using a potentiometer.",
@@ -85,7 +86,7 @@
             "Rotation": [0,-90,0],
             "Scale": [1,1,1],
             "Interfaces": ["gm_out","rh_out"],
-            "Parameters": [1, 0, 3, 0.1]
+            "Parameters": [4, 9, 2, 0.1]
         },
         
         
@@ -103,4 +104,5 @@
         }
         
     ]
+
 }

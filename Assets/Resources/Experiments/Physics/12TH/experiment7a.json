@@ -1,3 +1,4 @@
+
 {
     "ExperimentTitle": "Class 12 Experiment 7",
     "Aim": "To determine the internal resistance of a given primary cell using a potentiometer.",
@@ -62,8 +63,8 @@
         },
         {
             "Name": "Gm",
-            "Type": "Galvanometer",
-            "Title": "Galvanometer",
+            "Type": "GalvanometerAmmeterConversion",
+            "Title": "GalvanometerAmmeterConversion",
             "Description": "An ammeter is an instrument used to measure the current in a circuit. Electric currents are measured in amperes (A). For direct measurement, the ammeter is connected in series with the circuit in which the current is to be measured.",
             "Position": [0.94, 0, 1],
             "Rotation": [0,-89,0],

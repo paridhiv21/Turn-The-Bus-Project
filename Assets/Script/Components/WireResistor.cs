@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class WireResistor : CircuitComponent
 {
@@ -8,6 +9,8 @@ public class WireResistor : CircuitComponent
     public double resistivity;
     public double wireLength;
     public double Resistance;
+
+    
 
     public const string MATERIAL_PATH = "Assets/Resources/Materials/Resistor Materials";
 
@@ -48,6 +51,6 @@ public class WireResistor : CircuitComponent
         Circuit.isLabelWindowOpen = true;
         Circuit.componentTitle = Title;
         Circuit.componentDescription = Description;
-        Circuit.componentValue = string.Format("{0:0.##}", Resistance) + " OHM";
+        Circuit.componentValue = string.Format("{0:0.##}", Resistance) + " OHM"+", "+ string.Format("{0:0.##}", wireLength)+" M, " + areaOfCrossSection + " M^2";
     }
 }
